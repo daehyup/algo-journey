@@ -1,7 +1,7 @@
 T = int(input()) # 5
 pairs = []
 
-for _ in range(5):
+for _ in range(T):
     A, B = map(int, input().split())
     pairs.append((A, B))
 
